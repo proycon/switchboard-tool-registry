@@ -1,0 +1,36 @@
+{
+    "name": "English Automatic Speech Recognition System (Wav file)",
+    "task": "Speech Recognition",
+    "deployment": "production",
+    "softwareType": "qualitative",
+    "description": "This webservice uses automatic speech recognition to provide the transcriptions of recordings spoken in English recordings. You can upload and process only one file per project. For bulk processing and other questions, please contact Henk van den Heuvel at h.vandenheuvel@let.ru.nl.",
+    "homepage": "https://webservices-lst.science.ru.nl/eng_ASR",
+    "licence": "",
+    "location": "unknown",
+    "creators": null,
+    "contact": {
+        "person": "",
+        "email": ""
+    },
+    "version": "",
+    "authentication": "yes. Before tool use, Please register at https://webservices-lst.science.ru.nl/register/",
+    "url": "https://webservices-lst.science.ru.nl/eng_ASR",
+    "logo": null,
+    "mapping": {
+        "input": "InputWavFile_url"
+    },
+    "parameters": {
+        "project": "new",
+        "input": "self.linkToResource"
+    },
+    "mimetypes": [
+        "audio/wav"
+    ],
+    "languages": [
+        "eng"
+    ],
+    "output": [
+        "text/plain"
+    ],
+    "langEncoding": "639-3"
+}
